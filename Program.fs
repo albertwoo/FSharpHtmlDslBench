@@ -49,7 +49,7 @@ module FunBlazorDemo =
 [<MemoryDiagnoser>]
 type HtmlDslLongPageBenchmarks() =
 
-    let itemCount = 5_000
+    let itemCount = 10_000
 
     let testItems = 
         seq {0 .. itemCount}
